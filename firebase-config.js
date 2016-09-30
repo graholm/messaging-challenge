@@ -10,7 +10,7 @@ var store = firebase.database().ref("challenge")
 
 function addMessage() {
   console.log("Adding message");
-  store.child("messages").push({message: "GRACE!GRACE!GRACE!GRACE!GRACE!GRACE! GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!GRACE!"})	
+  store.child("messages").push({message: "GRACE!"})	
 }
 
 function readMessages(callback) {
