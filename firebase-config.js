@@ -8,9 +8,9 @@ firebase.initializeApp(firebaseConfig);
 
 var store = firebase.database().ref("challenge")
 
-function addMessage() {
+function addMessage(hi) {
   console.log("Adding message");
-  store.child("messages").push({message: "hi there!"})	
+  store.child("messages").push({message: "hi"})	
 }
 
 function readMessages(callback) {
