@@ -1,1 +1,1 @@
-addMessage(hi)
+addMessage()
